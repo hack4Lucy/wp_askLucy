@@ -26,7 +26,7 @@ define('DB_NAME', 'wp_askLucy');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Your password here');
+define('DB_PASSWORD', 'your db password');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -36,6 +36,15 @@ define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+
+/* 
+	[23JUN2016] Added by @hack4Lucy to solve issues with FTP connection problem 
+   	when trying to install themes, plugins, etc. 
+ */
+define('FS_METHOD', 'direct');
+
+
 
 /**#@+
  * Authentication Unique Keys and Salts.
