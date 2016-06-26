@@ -26,7 +26,7 @@ define('DB_NAME', 'wp_askLucy');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'your db password');
+define('DB_PASSWORD', 'your password here');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
